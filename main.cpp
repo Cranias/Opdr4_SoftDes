@@ -1,11 +1,15 @@
 #include <iostream>
-#include "Match.h"
+#include "match.h"
+#include "robot.h"
+#include "view.h"
 
 using namespace std;
 
 int main()
 {
-	Match M;
+	Robot R;
+	View V(&R);
+	Match M(&R);
 	M.runRobot();
 
 	return 0;

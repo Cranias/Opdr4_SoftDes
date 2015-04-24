@@ -197,7 +197,8 @@ HEADERS += \
     $$PWD/klaar.h \
     $$PWD/Observer.h \
     $$PWD/robot.h \
-    $$PWD/verloren.h
+    $$PWD/verloren.h \
+    $$PWD/view.h
 
 SOURCES += \
     $$PWD/match.cpp \
@@ -207,5 +208,6 @@ SOURCES += \
     $$PWD/klaar.cpp \
     $$PWD/Observer.cpp \
     $$PWD/robot.cpp \
-    $$PWD/verloren.cpp
+    $$PWD/verloren.cpp \
+    $$PWD/view.cpp
 

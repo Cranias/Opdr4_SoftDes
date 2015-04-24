@@ -7,6 +7,7 @@ class Match
 {
 	public:
 		Match();
+		Match(Robot* pR);
 		~Match();
 		virtual void runRobot();
 	private:
