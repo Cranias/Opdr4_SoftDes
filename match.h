@@ -8,7 +8,7 @@ class Match
 	public:
 		Match();
 		~Match();
-		void runRobot();
+		virtual void runRobot();
 	private:
 		Robot* R;
 };
